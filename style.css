@@ -1,0 +1,124 @@
+
+navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    height: 60px;
+}
+navbar ul{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    margin: 20px;
+}
+
+navbar ul li{
+    list-style: none;
+    font-size: 25px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+    border-radius: 6px;
+}
+navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    color: black;
+    background-color: rgb(70, 204, 252);
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+navbar ul li a:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(118, 224, 127);
+}
+
+
+
+/*--------body ------*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #cbb4fe, #b374fb, #9947f7);
+}
+.container{
+    margin: 30px auto;
+    text-align: center;
+}
+#h1{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-shadow: 3px 6px 5px black;
+}
+#p{
+    font-size: 50px;
+    color: black;
+    width: 200px;
+    margin: 40px auto;
+    background: rgb(157, 255, 0);
+    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 8px;
+    font-size: 1.2em;
+    width: 150px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #7ffbcd, #56fc85, #16f095);
+    color: rgb(255, 24, 24);
+    transition: 0.4s;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*--------------css for timer -----------------*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  #progress{
+    width: 90%;
+    height: 27px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin-bottom: 50px;
+  }
+  #progress-bar{
+    margin: 1px;
+    height: 25px;
+    background-color: rgb(155, 65, 0);
+    border-radius: 8px;
+    
+  }
+  input{
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #demo{
+    font-size: 40px;
+    margin-top: 70px;
+    background: #56fc85;
+    border: 2px solid black;
+    width: 200px;
+    margin: auto;
+  }
